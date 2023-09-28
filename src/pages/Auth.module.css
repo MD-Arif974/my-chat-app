@@ -1,0 +1,85 @@
+
+.AuthOuterCont{
+    width:100vw;
+    height:100vh;
+    background-color: #92a8d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authCont{
+    width:25%;
+    height:auto;
+    border:1px solid gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    
+
+}
+.authCont form{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border:2px solid red; */
+}
+.authCont form input{
+    padding:10px;
+    border:none;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.authCont form  ::placeholder{
+    font-size:16px;
+}
+.authCont form button{
+    padding:10px;
+    font-size:20px;
+    text-align: center;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.718);
+    cursor: pointer;
+}
+.authCont h3{
+    width:100%;
+    margin-top: -6%;
+    text-align: center;
+    
+}
+.authCont h1{
+    width:100%;
+    text-align: center;
+}
+form .file{
+    display: none;
+   
+}
+.avatarCont {
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.avatarCont img{
+  width:40px;
+  height:40px;
+}
+.avatarCont span{
+    font-size:20px;
+    color:blueviolet
+    
+   
+}
+.authCont p{
+    font-size:18px;
+    font-weight: 500;
+
+}
